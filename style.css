@@ -7,8 +7,8 @@ body {
 .container {
     position: relative;
     justify-content: center;
-    margin: auto;
     display: flex;
+    margin: auto;
 }
 
 #face {
@@ -219,138 +219,6 @@ body {
 #footRight {
     transform: translate(65%, 3450%);
 }
-
-.sun {
-    position: absolute;
-    display: block;
-    width: 2.3em;
-    height: 2.3em;
-    background: #fafaa8;
-    border-radius: 50%;
-    transform: translate(470%, 50%);
-    border: solid 3px #f2f371;
-}
-
-#ray1, #ray2, #ray3, #ray4, #ray5, #ray6, #ray7, #ray8 {
-    position: absolute;
-    width: 0.3em;
-    height: 0.8em;
-    background: #fafaa8;
-    transform: translate(140%, -100%) rotate(-15deg);
-    border-radius: 50%;
-}
-
-#ray2 {
-    transform: translate(-170%, 0%) rotate(110deg)
-}
-
-#ray3 {
-    transform: translate(-180%, 150%) rotate(70deg)
-}
-
-#ray4 {
-    transform: translate(70%, 270%) rotate(200deg)
-}
-
-#ray5 {
-    transform: translate(830%, 0%) rotate(-110deg)
-}
-
-#ray6 {
-    transform: translate(850%, 160%) rotate(-70deg)
-}
-
-#ray7 {
-    transform: translate(570%, 280%) rotate(-20deg)
-}
-
-#ray8 {
-    transform: translate(560%, -95%) rotate(20deg)
-}
-
-#cloudBall1, #cloudBall2, #cloudBall3, #cloudBall4, #cloudBall5, #cloudBall_1,
-#cloudBall_2,
-#cloudBall_3,
-#cloudBall_4,
-#cloudBall_5, #cloudBall__1,
-#cloudBall__2,
-#cloudBall__3,
-#cloudBall__4 {
-    position: absolute;
-    display: block;
-    width: 2em;
-    height: 1em;
-    background: #ffffff;
-    border-radius: 70% 5% 5% 70%;
-    transform: translate(-350%, 900%) rotate(-10deg);
-}
-
-#cloudBall2 {
-    width: 1em;
-    transform: translate(-650%, 810%) rotate(70deg);
-}
-
-#cloudBall3 {
-    height: 1.2em;
-    transform: translate(-270%, 730%) rotate(190deg);
-}
-
-#cloudBall4 {
-    width: 1em;
-    transform: translate(-530%, 800%) rotate(100deg);
-}
-
-#cloudBall5 {
-    width: 1em;
-    transform: translate(-590%, 950%) rotate(290deg);
-}
-
-#cloudBall_1 {
-    width: 1em;
-    transform: translate(-3250%, 300%) rotate(-10deg);
-}
-
-#cloudBall_2 {
-    width: 1em;
-    transform: translate(-3200%, 210%) rotate(70deg);
-}
-
-#cloudBall_3 {
-    height: 1.2em;
-    transform: translate(0%, 0%) rotate(200deg);
-}
-
-#cloudBall_4 {
-    width: 1em;
-    transform: translate(-3090%, 200%) rotate(110deg);
-}
-
-#cloudBall_5 {
-    height: 1.2em;
-    transform: translate(-1580%, 235%) rotate(190deg);
-}
-
-#cloudBall__1 {
-    width: 1em;
-    transform: translate(-5000%, 1000%) rotate(-10deg);
-}
-
-#cloudBall__2 {
-    width: 1em;
-    transform: translate(-4970%, 900%) rotate(70deg);
-}
-
-#cloudBall__3 {
-    height: 1.2em;
-    transform: translate(-2470%,
-    810%) rotate(175deg);
-}
-
-#cloudBall__4 {
-    width: 1em;
-    transform: translate(-4860%, 900%) rotate(110deg);
-}
-
 
 #yellowGrass1, #yellowGrass2, #yellowGrass3, #yellowGrass4, #yellowGrass5, #yellowGrass5, #yellowGrass6 {
     width: 0.2em;
